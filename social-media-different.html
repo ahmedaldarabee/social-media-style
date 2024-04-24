@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Social media </title>
+    <link rel="stylesheet" href="../CSS/socialMediaNew.css">
+</head>
+
+<body class="center-object">
+
+    <div class="menu active center-object">
+
+        <li style="--i:1; --clr:#0a0091;">
+            <a href="#" class="center-object"> <ion-icon name="logo-facebook"></ion-icon>  </a>
+        </li>
+
+        <li style="--i:2; --clr:black;">
+            <a href="#" class="center-object"> <ion-icon name="logo-github"></ion-icon>  </a>
+        </li>
+
+        <li style="--i:3; --clr:#00aeff;">
+            <a href="#" class="center-object"> <ion-icon name="logo-twitter"></ion-icon>  </a>
+        </li>
+
+        <li style="--i:4; --clr:#c702ce;">
+            <a href="#" class="center-object"> <ion-icon name="logo-instagram"></ion-icon>  </a>
+        </li>
+
+        <div class="toggle center-object">
+            <ion-icon name="share-social">  </ion-icon>
+            <ion-icon name="close-outline"> </ion-icon>
+        </div>
+
+
+    </div>
+
+    <!-- Js code not clear for me. -->
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+
+        toggle.onclick = function() {
+            menu.classList.toggle('active');
+        }
+        
+
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+
+</body>
+</html>
